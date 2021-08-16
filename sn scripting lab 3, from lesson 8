@@ -1,0 +1,22 @@
+//sn scripting lab 3, from lesson 8
+
+var string1 = 'Hasi';
+var string2 = 'Jan';
+var string3 = 'heartbroken';
+
+gs.info('Laenge1: ' + string1.length);
+gs.info('Laenge2: ' + string2.length);
+gs.info('Laenge3: ' + string3.length);
+
+var all = string1 + '\n' + string2 + '\n' + string3;
+gs.info(all);
+gs.info(all.length);
+
+/**** Script: Laenge1: 4
+*** Script: Laenge2: 3
+*** Script: Laenge3: 11
+*** Script: Hasi
+Jan
+heartbroken
+*** Script: 20
+means \n new line is one counted one*/
